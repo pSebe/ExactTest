@@ -18,6 +18,6 @@ The main disadvantages are:
 ## Usage
 The program receives a contingency table as a tab-separated file, in this syntax:
 
-    python3 ExactTest.py file.txt
+    python3 montecarlo.py file.txt
 
 By default, this will output the p-value for the independence hypothesis. If you want to output also the mutual information of your data, add `-kl` to this syntax. For verbose output, you can add `-v` to this syntax.
