@@ -1,4 +1,4 @@
-# ExactTest
+# Monte-Carlo Hypothesis Test
 This is a simple Python script that provides an Monte Carlo statistical test for independence in contingency tables. This hypothesis test should not have problems with tables containing zeros or low count cells, unlike most asymptotic tests (e.g. Pearson's chi-squared and standard G-test).
 ## Algorithm
 The algorithm consists of the following steps:
